@@ -8,7 +8,7 @@ export default function Header({ lang, nav, buy_url }){
         <Link href={`/${lang}`} className="flex items-center gap-3">
           {/* MODIFICATION : h-10 w-auto conserve les proportions du logo */}
           <img 
-            src=/logo-transparent.png 
+            src={logo-transparent.Png} 
             alt="MAWA Logo" 
             className="h-10 w-auto" // Le logo gardera sa forme originale sans être écrasé
           />
